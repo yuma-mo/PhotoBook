@@ -1,0 +1,193 @@
+body {
+  font-family: Meiryo, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background: #F4F9FF;
+}
+
+.top {
+  /* background: #F4F9FF; */
+  margin: 0;
+  
+  padding-bottom: 60px;
+}
+
+.top .container {
+  width: auto;
+  margin: 0 10px;
+}
+
+.top .pic {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+
+.logo {
+  padding-top: 60px;
+  margin-bottom: 15px;
+  /* margin: 60px auto 15px 10px; */
+}
+
+.logo img {
+  display: inline-block;
+  width: 160px;
+  height: 18px;
+} 
+
+/* .top .pic {
+  margin: 0 10px;
+  
+} */
+
+.top .pic img {
+  display: inline-block;
+  width: 100%;
+  
+}
+
+.index {
+  padding: 30px 40px;
+  background: #fff;
+}
+
+
+
+ol {
+  padding-left: 20px;
+  margin: 0;
+  
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+.detail {
+  /* background: #F4F9FF; */
+  padding: 60px 40px;
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.detail .pic img {
+  width: 100%;
+}
+
+.text {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.text .info {
+  padding: 16px 0;
+  border-top: 1px solid #DEDEDE;
+  border-bottom: 1px solid #DEDEDE;
+}
+
+.text .info h2 {
+  width: 42px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.text .info p {
+  margin-left: 23px;
+}
+.text .info>* {
+  display: flex;
+  align-items: center;
+  
+  height: 21px;
+}
+
+.sentence {
+  margin-top: 25px;
+}
+
+.btn {
+  color: #333;
+}
+
+.btn:hover {
+  /* cursor: pointer; */
+  opacity: 0.5;
+}
+footer {
+ background: #F4F9FF;
+ padding: 15px 40px;
+ font-size: 10px;
+}
+
+@media (min-width: 1000px) {
+.top .container {
+  width: 78.125%;
+  margin: 0 auto;
+}
+
+.index {
+  width: 78.125%;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+}
+
+.index .text {
+  width: 596px;
+  margin: 30px auto;
+  /* box-sizing: border-box; */
+}
+
+.detail {
+  /* width: 50%; */
+  margin: 30px auto;
+}
+.detail .ver {
+  display: flex;
+  flex-direction: column;
+  width: 596px;
+  margin: 0 auto;
+}
+
+.detail .container {
+  display: flex;
+  /* justify-content: center; */
+}
+.detail .container>* {
+  width: 270px;
+  margin: 0 30px;
+}
+/* .detail h1 {
+  display: block;
+} */
+.detail .container .pic {
+  margin-left: 0;
+}
+.detail .container .info {
+  margin-right: 0;
+}
+
+.detail .text {
+  margin-top: 0;
+}
+.detail .text h1 {
+  margin-top: 0;
+}
+
+
+
+footer {
+  width: 596px;
+  margin: 15px auto;
+  padding: 0;
+  /* text-align: center; */
+}
+
+
+}
